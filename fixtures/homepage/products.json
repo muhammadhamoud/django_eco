@@ -1,0 +1,177 @@
+[
+    {
+      "model": "homepage.productcategory",
+      "pk": 1,
+      "fields": {
+        "name": "Prefab",
+        "description_short": "Unlocking Possibilities in Prefabricated Structures",
+        "description": "",
+        "image":""
+      }
+    },
+    {
+      "model": "homepage.productcategory",
+      "pk": 2,
+      "fields": {
+        "name": "Tents",
+        "description_short": "Sheltering Your Dreams with Quality and Style",
+        "description": "Experience the versatility of our tents, meticulously designed to meet your diverse needs:",
+        "image":""
+      }
+    },
+    {
+      "model": "homepage.productcategory",
+      "pk": 3,
+      "fields": {
+        "name": "Car Parking",
+        "description_short": "Where Quality Shades Meet Competitive Prices",
+        "description": "Our reputation as a market leader in the UAE for Car Parking Shades is built on:",
+        "image":""
+      }
+    },
+    {
+      "model": "homepage.product",
+      "pk": 1,
+      "fields": {
+        "name": "Site Offices & Labour Camps",
+        "description": "Creating efficient spaces for your workforce to thrive.",
+        "category": 1
+      }
+    },
+    {
+      "model": "homepage.product",
+      "pk": 2,
+      "fields": {
+        "name": "Double Storey Buildings",
+        "description": "Elevate your space with versatile two-story structures.",
+        "category": 1
+      }
+    },
+    {
+      "model": "homepage.product",
+      "pk": 3,
+      "fields": {
+        "name": "Housemaid & Driver Cabins",
+        "description": "Compact and comfortable living spaces.",
+        "category": 1
+      }
+    },
+    {
+      "model": "homepage.product",
+      "pk": 4,
+      "fields": {
+        "name": "Villa & Security Cabins",
+        "description": "Secure and stylish living solutions.",
+        "category": 1
+      }
+    },
+    {
+      "model": "homepage.product",
+      "pk": 5,
+      "fields": {
+        "name": "Ablution & Mobile Toilet Cabin",
+        "description": "Modern sanitation with mobility.",
+        "category": 1
+      }
+    },
+    {
+      "model": "homepage.product",
+      "pk": 6,
+      "fields": {
+        "name": "Trailer Cabin",
+        "description": "Portable living spaces for various purposes.",
+        "category": 1
+      }
+    },
+    {
+      "model": "homepage.product",
+      "pk": 7,
+      "fields": {
+        "name": "Warehouse",
+        "description": "Efficient storage solutions for your business.",
+        "category": 1
+      }
+    },
+    {
+      "model": "homepage.product",
+      "pk": 8,
+      "fields": {
+        "name": "Mosque",
+        "description": "Serene places of worship designed with precision.",
+        "category": 1
+      }
+    },
+    {
+      "model": "homepage.product",
+      "pk": 9,
+      "fields": {
+        "name": "Plan & Design, and More",
+        "description": "Tailor-made solutions to meet your exact requirements.",
+        "category": 1
+      }
+    },
+    {
+      "model": "homepage.product",
+      "pk": 10,
+      "fields": {
+        "name": "Wedding Tents",
+        "description": "Create magical moments with elegant wedding venues.",
+        "category": 2
+      }
+    },
+    {
+      "model": "homepage.product",
+      "pk": 11,
+      "fields": {
+        "name": "Military Tents",
+        "description": "Durable and reliable solutions for military operations.",
+        "category": 2
+      }
+    },
+    {
+      "model": "homepage.product",
+      "pk": 12,
+      "fields": {
+        "name": "Travelling Tents",
+        "description": "Portable comfort for your adventurous journeys.",
+        "category": 2
+      }
+    },
+    {
+      "model": "homepage.product",
+      "pk": 13,
+      "fields": {
+        "name": "Casual Tents",
+        "description": "Versatile tents for various outdoor events and activities.",
+        "category": 2
+      }
+    },
+    {
+      "model": "homepage.product",
+      "pk": 14,
+      "fields": {
+        "name": "Quality Car Parking Shades",
+        "description": "Protect your vehicles with durable and efficient shades.",
+        "category": 3
+      }
+    },
+    {
+      "model": "homepage.product",
+      "pk": 15,
+      "fields": {
+        "name": "Competitive Prices",
+        "description": "Get value without compromising on quality.",
+        "category": 3
+      }
+    },
+    {
+      "model": "homepage.product",
+      "pk": 16,
+      "fields": {
+        "name": "Exceptional Service",
+        "description": "We are committed to serving our customers with excellence.",
+        "category": 3
+      }
+    }
+  ]
+  

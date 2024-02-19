@@ -1,0 +1,17 @@
+<!-- ratetype_list.html -->
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Rate Types</h1>
+  <ul>
+    {% for ratetype in ratetypes %}
+      <li>{{ ratetype.rate_type }}
+        <a href="{% url 'ratetype-update' ratetype.pk %}"><i class="fa fa-edit"></i></a>
+        <a href="{% url 'ratetype-delete' ratetype.pk %}"><i class="fa fa-trash"></i></a>
+      </li>
+    {% empty %}
+      <li>No rate types available.</li>
+    {% endfor %}
+  </ul>
+  <a href="{% url 'ratetype-create' %}">Create New Rate Type</a>
+{% endblock %}

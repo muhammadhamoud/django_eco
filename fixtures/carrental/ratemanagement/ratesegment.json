@@ -1,0 +1,178 @@
+[
+    {
+        "model": "ratemanagement.ratesegment",
+        "pk": 1,
+        "fields": {
+            "code": "REG",
+            "description": "Premium Retail",
+            "sequence": 1,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratesegment",
+        "pk": 2,
+        "fields": {
+            "code": "BEN",
+            "description": "Standard Retail",
+            "sequence": 2,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratesegment",
+        "pk": 3,
+        "fields": {
+            "code": "ECM",
+            "description": "eChannel Retail",
+            "sequence": 3,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratesegment",
+        "pk": 4,
+        "fields": {
+            "code": "SPE",
+            "description": "Special Corporate",
+            "sequence": 4,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratesegment",
+        "pk": 5,
+        "fields": {
+            "code": "WHO",
+            "description": "Wholesale Fit / Bundled Travel",
+            "sequence": 5,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratesegment",
+        "pk": 6,
+        "fields": {
+            "code": "MIL",
+            "description": "Government",
+            "sequence": 6,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratesegment",
+        "pk": 7,
+        "fields": {
+            "code": "SFB",
+            "description": "Weekend Standard Retail",
+            "sequence": 7,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratesegment",
+        "pk": 8,
+        "fields": {
+            "code": "AAA",
+            "description": "Auto Assn Of America (AAA)",
+            "sequence": 8,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratesegment",
+        "pk": 9,
+        "fields": {
+            "code": "PKG",
+            "description": "Package Retails",
+            "sequence": 9,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratesegment",
+        "pk": 10,
+        "fields": {
+            "code": "ADP",
+            "description": "Advance Purchase",
+            "sequence": 10,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratesegment",
+        "pk": 11,
+        "fields": {
+            "code": "SDC",
+            "description": "Senior Discount",
+            "sequence": 11,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratesegment",
+        "pk": 12,
+        "fields": {
+            "code": "MAR",
+            "description": "Associate Leisure",
+            "sequence": 12,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratesegment",
+        "pk": 13,
+        "fields": {
+            "code": "BMR",
+            "description": "Redemption",
+            "sequence": 13,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratesegment",
+        "pk": 14,
+        "fields": {
+            "code": "OTD",
+            "description": "Other Discount",
+            "sequence": 14,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratesegment",
+        "pk": 15,
+        "fields": {
+            "code": "CMP",
+            "description": "Complimentary",
+            "sequence": 15,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratesegment",
+        "pk": 16,
+        "fields": {
+            "code": "Grp",
+            "description": "Group",
+            "sequence": 16,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    }
+]

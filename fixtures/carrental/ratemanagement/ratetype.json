@@ -1,0 +1,38 @@
+[
+    {
+        "model": "ratemanagement.ratetype",
+        "pk": 1,
+        "fields": {
+            "rate_type": "System Generated",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratetype",
+        "pk": 2,
+        "fields": {
+            "rate_type": "Weekend",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratetype",
+        "pk": 3,
+        "fields": {
+            "rate_type": "Weekday",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratetype",
+        "pk": 4,
+        "fields": {
+            "rate_type": "Seven Day",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    }
+]

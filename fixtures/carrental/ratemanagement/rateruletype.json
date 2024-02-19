@@ -1,0 +1,65 @@
+[
+    {
+        "model": "ratemanagement.rateruletype",
+        "pk": 1,
+        "fields": {
+            "rate_type": "None Defined",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.rateruletype",
+        "pk": 2,
+        "fields": {
+            "rate_type": "Fixed",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.rateruletype",
+        "pk": 3,
+        "fields": {
+            "rate_type": "Percentage Above",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.rateruletype",
+        "pk": 4,
+        "fields": {
+            "rate_type": "Percentage Below",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.rateruletype",
+        "pk": 5,
+        "fields": {
+            "rate_type": "Amount Above",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.rateruletype",
+        "pk": 6,
+        "fields": {
+            "rate_type": "Amount Below",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.rateruletype",
+        "pk": 7,
+        "fields": {
+            "rate_type": "Equal",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    }
+]

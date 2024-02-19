@@ -1,0 +1,49 @@
+[
+    {
+        "model": "homepage.siteinformation",
+        "pk": 4,
+        "fields": {
+            "created": "2023-10-23T09:24:19.847Z",
+            "modified": "2023-10-23T09:24:30.865Z"
+        }
+    },
+    {
+        "model": "homepage.siteinformationtranslation",
+        "pk": 5,
+        "fields": {
+            "language_code": "en",
+            "site_name": "Hamoud",
+            "company_name": "Hamoud",
+            "site_description": "",
+            "site_keywords": null,
+            "tagline": null,
+            "master": 4
+        }
+    },
+    {
+        "model": "homepage.siteinformationtranslation",
+        "pk": 6,
+        "fields": {
+            "language_code": "ar",
+            "site_name": "حمود",
+            "company_name": "حمود",
+            "site_description": "",
+            "site_keywords": null,
+            "tagline": null,
+            "master": 4
+        }
+    },
+    {
+        "model": "homepage.siteinformationtranslation",
+        "pk": 6,
+        "fields": {
+            "language_code": "es",
+            "site_name": "اسباني",
+            "company_name": "الله حي اسبانيا",
+            "site_description": "",
+            "site_keywords": null,
+            "tagline": null,
+            "master": 4
+        }
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "model": "homepage.service",
+        "pk": 1,
+        "fields": {
+            "name": "Exceptional After-Sales Support",
+            "discriptions": "Our commitment to your satisfaction doesn't end with a sale. Whether it's attending to remedial calls, fine-tuning floor plans by relocating internal partitions, or extending and enhancing existing structures, we are here to assist you at every turn.",
+            "image": "",
+            "icon": ""
+        }
+    },
+    {
+        "model": "homepage.service",
+        "pk": 2,
+        "fields": {
+            "name": "State-of-the-Art Facilities",
+            "discriptions": "Operating from our cutting-edge premises in Ajman Industrial Area, we boast a modern, fully equipped factory with a large purpose-built production area. Our highly trained workforce is ready to bring your vision to life.",
+            "image": "",
+            "icon": ""
+        }
+    },
+    {
+        "model": "homepage.service",
+        "pk": 3,
+        "fields": {
+            "name": "Continuous Improvement",
+            "discriptions": "We believe in constant evolution. Every year, we invest significant time and resources in enhancing our products and interiors. This commitment ensures that we consistently deliver a first-class product that exceeds your expectations.",
+            "image": "",
+            "icon": ""
+        }
+    }
+]

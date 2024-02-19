@@ -1,0 +1,12 @@
+<!-- ratetype_confirm_delete.html -->
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Confirm Deletion</h1>
+  <p>Are you sure you want to delete the Rate Type "{{ ratetype.rate_type }}"?</p>
+  <form method="post">
+    {% csrf_token %}
+    <button class="btn btn-primary" type="submit">Confirm Delete</button>
+  </form>
+  <a class="btn btn-success" href="{% url 'ratetype-list' %}">Cancel</a>
+{% endblock %}

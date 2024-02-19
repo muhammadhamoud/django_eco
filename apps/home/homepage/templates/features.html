@@ -1,0 +1,32 @@
+{% load static %}
+{% load custom_filters %}
+<section class="featurette-divider" id="features">
+<h2 class="pb-2 border-bottom mb-4">Features</h2>
+{% for feature in features %}
+{% with forloop.counter0 as index %}
+    {% if index|is_odd %}
+        <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">{{feature.name}}</h2>
+            <p class="lead">{{feature.description|safe}}</p>
+        </div>
+        <div class="col-md-5 d-flex align-items-center">
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-3" width="500" height="500" src="{{feature.image.url}}" alt="">
+        </div>
+        </div>
+        <hr class="featurette-divider">
+    {% else %}
+        <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">{{feature.name}}</h2>
+            <p class="lead">{{feature.description|safe}}</p>
+        </div>
+        <div class="col-md-5 order-md-1 d-flex align-items-center">
+            <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-3" width="500" height="500" src="{{feature.image.url}}" alt="">
+        </div>
+        </div>
+        <hr class="featurette-divider">
+    {% endif %}
+{% endwith %}
+{% endfor %}
+</section>

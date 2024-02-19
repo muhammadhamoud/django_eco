@@ -1,0 +1,33 @@
+<section class="" id="teammembers">
+      <div class="header my-5">
+        <h2 class="pb-2 border-bottom">Meet our Team</h2>
+        <p class="text-muted">Our highly trained workforce is ready to bring your vision to life.</p>
+      </div>
+      <div class="row team text-center py-5">
+        {% for teammember in teammembers %}
+        <div class="col-md-6 col-lg-3">
+          <div class="img-block mb-5">
+            <img src="{{teammember.image.url}}" class="img-fluid  img-thumbnail rounded-circle" alt="teammember">
+            <div class="content mt-2">
+                <h4>{{teammember.first_name}} {{teammember.last_name}}</h4>
+                <p class="text-muted">{{teammember.job_title}}</p>
+                <p class="text-muted">{{teammember.bio}}</p>
+                <p class="text-muted"><i class="fas fa-phone me-3"></i>{{teammember.phone_number}}</p>
+            <a class="btn text-white btn-floating m-1"
+                style="background-color: #55acee;"
+                href="mailto:{{teammember.email}}"
+                role="button"><i class="fas fa-envelope"></i>
+            </a>
+            <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #128c7e;"
+            href="https://wa.me/{teammember.phone_number}}"
+            role="button"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+  </section>

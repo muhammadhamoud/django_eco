@@ -1,0 +1,37 @@
+<!-- Navigation-->
+{% load static %}
+{% load i18n %}
+  <nav class="navbar navbar-expand-lg fixed-top navbar-expand-md navbar-dark fixed-top bg-dark" id="mainNav">
+    <div class="container">
+        <h1><a class="navbar-brand font-weight-bold" href="{% url 'index' %}">
+          {% if site_information.logo %}
+            <img src="{{site_information.logo.url}}" width="30" height="30" class="d-inline-block align-top me-2" alt="">  
+          {% endif %}
+          {{site_information.name}}
+        </a></h1>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto my-2 my-lg-0">
+            <li class="nav-item"><a class="nav-link" href="{% url 'store:product_list' %}">Product</a></li>
+
+            {% comment %} <li class="nav-item"><a class="nav-link" href="'vehicle_list'">Cars</a></li> {% endcomment %}
+            {% comment %} <li class="nav-item"><a class="nav-link" href="{% url 'index' %}">Home</a></li> {% endcomment %}
+            {% comment %} <li class="nav-item"><a class="nav-link" href="{% url '' %}">Contact</a></li> {% endcomment %}
+            {% comment %} <li class="nav-item"><a class="nav-link" href="{% url 'countryaddress_changelist' %}">Adress</a></li> {% endcomment %}
+            <li class="nav-item dropdown">
+                {% get_current_language as LANGUAGE_CODE %}
+                {% get_available_languages as LANGUAGES %}
+                {% get_language_info_list for LANGUAGES as languages %}
+                <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    {% trans "Language" %} <span class="selected-language">{{ LANGUAGE_CODE }}</span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="languageDropdown">
+                    {% for language in languages %}
+                    <a class="dropdown-item{% if language.code == LANGUAGE_CODE %} active{% endif %}" href="/{{ language.code }}/"> {{ language.name_local }}</a>
+                    {% endfor %}
+                </div>
+            </li>
+        </ul>
+        </div>
+    </div>
+</nav>

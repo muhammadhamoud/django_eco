@@ -1,0 +1,15 @@
+<!-- ratetype_form.html -->
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>{% if ratetype.pk %}Edit Rate Type{% else %}Create Rate Type{% endif %}</h1>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button class="btn btn-primary" type="submit">{% if ratetype.pk %}Update{% else %}Create{% endif %}</button>
+  </form>
+  <a href="{% url 'ratetype-list' %}">Back to Rate Types</a>
+  {% if ratetype.pk %}
+    <a href="{% url 'ratetype-delete' ratetype.pk %}">Delete this Rate Type</a>
+  {% endif %}
+{% endblock %}

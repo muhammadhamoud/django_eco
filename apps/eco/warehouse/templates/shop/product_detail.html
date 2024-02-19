@@ -1,0 +1,13 @@
+
+{% block title %}
+  {% if category %}{{ category.name }}{% else %}Products{% endif %}
+{% endblock %}
+
+{% block content %}
+
+<h1>{{ product.name }}</h1>
+<!-- <p>Price: {{ product.price }}</p> -->
+<p>Stock: {{ product.stock }}</p>
+<p>Category: {{ product.category }}</p>
+
+{% endblock %}

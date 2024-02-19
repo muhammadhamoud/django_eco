@@ -1,0 +1,142 @@
+[
+    {
+        "model": "ratemanagement.ratecode",
+        "pk": 1,
+        "fields": {
+            "code": "RC1",
+            "name": "Rate Code 1",
+            "rate_pool": 1,
+            "rate_type": 1,
+            "rate_segment": 1,
+            "rate_category": 1,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratecode",
+        "pk": 2,
+        "fields": {
+            "code": "RC2",
+            "name": "Rate Code 2",
+            "rate_pool": 1,
+            "rate_type": 1,
+            "rate_segment": 1,
+            "rate_category": 1,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratecode",
+        "pk": 3,
+        "fields": {
+            "code": "RC3",
+            "name": "Rate Code 3",
+            "rate_pool": 1,
+            "rate_type": 1,
+            "rate_segment": 1,
+            "rate_category": 1,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratecode",
+        "pk": 4,
+        "fields": {
+            "code": "RC4",
+            "name": "Rate Code 4",
+            "rate_pool": 1,
+            "rate_type": 1,
+            "rate_segment": 1,
+            "rate_category": 1,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratecode",
+        "pk": 5,
+        "fields": {
+            "code": "RC5",
+            "name": "Rate Code 5",
+            "rate_pool": 1,
+            "rate_type": 1,
+            "rate_segment": 1,
+            "rate_category": 1,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratecode",
+        "pk": 6,
+        "fields": {
+            "code": "RC6",
+            "name": "Rate Code 6",
+            "rate_pool": 1,
+            "rate_type": 1,
+            "rate_segment": 1,
+            "rate_category": 1,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratecode",
+        "pk": 7,
+        "fields": {
+            "code": "RC7",
+            "name": "Rate Code 7",
+            "rate_pool": 1,
+            "rate_type": 1,
+            "rate_segment": 1,
+            "rate_category": 1,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratecode",
+        "pk": 8,
+        "fields": {
+            "code": "RC8",
+            "name": "Rate Code 8",
+            "rate_pool": 1,
+            "rate_type": 1,
+            "rate_segment": 1,
+            "rate_category": 1,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratecode",
+        "pk": 9,
+        "fields": {
+            "code": "RC9",
+            "name": "Rate Code 9",
+            "rate_pool": 1,
+            "rate_type": 1,
+            "rate_segment": 1,
+            "rate_category": 1,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratecode",
+        "pk": 10,
+        "fields": {
+            "code": "RC10",
+            "name": "Rate Code 10",
+            "rate_pool": 1,
+            "rate_type": 1,
+            "rate_segment": 1,
+            "rate_category": 1,
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    }
+]

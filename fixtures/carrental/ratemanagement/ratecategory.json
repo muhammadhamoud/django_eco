@@ -1,0 +1,72 @@
+[
+    {
+        "model": "ratemanagement.ratecategory",
+        "pk": 1,
+        "fields": {
+            "code": "RAC",
+            "description": "Rate Category 1",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratecategory",
+        "pk": 2,
+        "fields": {
+            "code": "BEN",
+            "description": "Rate Category 2",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratecategory",
+        "pk": 3,
+        "fields": {
+            "code": "OTH",
+            "description": "Rate Category 3",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratecategory",
+        "pk": 4,
+        "fields": {
+            "code": "COS",
+            "description": "Rate Category 4",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratecategory",
+        "pk": 5,
+        "fields": {
+            "code": "WHO",
+            "description": "Rate Category 5",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratecategory",
+        "pk": 6,
+        "fields": {
+            "code": "PKG",
+            "description": "Rate Category 9",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratecategory",
+        "pk": 7,
+        "fields": {
+            "code": "CMP",
+            "description": "Rate Category 15",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    }
+]

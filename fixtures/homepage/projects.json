@@ -1,0 +1,242 @@
+[
+    {
+        "model": "homepage.project",
+        "pk": 1,
+        "fields": {
+            "category": 1, 
+            "name": "Efficient Work Camps",
+            "client": "XYZ Construction Company",
+            "discriptions": "We designed and built state-of-the-art work camps, including Site Offices & Labour Camps, to provide efficient and comfortable accommodation for the workforce.",
+            "image": "uploads/project1.jpg", 
+            "icon": "icon1.png"
+        }
+    },
+    {
+        "model": "homepage.project",
+        "pk": 2,
+        "fields": {
+            "category": 1, 
+            "name": "Two-Story Office Building",
+            "client": "ABC Corporation",
+            "discriptions": "We constructed a versatile Double Storey Building to serve as a modern office space, offering flexibility for various purposes.",
+            "image": "uploads/project2.jpg", 
+            "icon": "icon2.png"
+        }
+    },
+    {
+        "model": "homepage.project",
+        "pk": 3,
+        "fields": {
+            "category": 1, 
+            "name": "Compact Living Spaces",
+            "client": "Private Residence",
+            "discriptions": "Our Housemaid & Driver Cabins provided compact yet comfortable living spaces, tailored to the needs of the client's domestic staff.",
+            "image": "uploads/project3.jpg", 
+            "icon": "icon3.png"
+        }
+    },
+    {
+        "model": "homepage.project",
+        "pk": 4,
+        "fields": {
+            "category": 1, 
+            "name": "Secure Villas",
+            "client": "Luxury Resort",
+            "discriptions": "We delivered Villa & Security Cabins that combined security and style to offer secure and elegant living solutions for the resort.",
+            "image": "uploads/project4.jpg", 
+            "icon": "icon4.png"
+        }
+    },
+    {
+        "model": "homepage.project",
+        "pk": 5,
+        "fields": {
+            "category": 1, 
+            "name": "Mobile Sanitation",
+            "client": "Event Management Company",
+            "discriptions": "Our Ablution & Mobile Toilet Cabins offered modern sanitation with mobility, ensuring convenience and hygiene at outdoor events.",
+            "image": "uploads/project5.jpg", 
+            "icon": "icon5.png"
+        }
+    },
+    {
+        "model": "homepage.project",
+        "pk": 6,
+        "fields": {
+            "category": 1, 
+            "name": "Portable Office Spaces",
+            "client": "Mobile Business",
+            "discriptions": "We provided Trailer Cabins as portable office spaces, ideal for various business applications, allowing mobility and flexibility.",
+            "image": "uploads/project6.jpg", 
+            "icon": "icon6.png"
+        }
+    },
+    {
+        "model": "homepage.project",
+        "pk": 7,
+        "fields": {
+            "category": 1, 
+            "name": "Efficient Warehouse",
+            "client": "Warehousing Company",
+            "discriptions": "Our Warehouse structures offered efficient storage solutions, optimizing the storage capacity for the client's business.",
+            "image": "uploads/project7.jpg", 
+            "icon": "icon7.png"
+        }
+    },
+    {
+        "model": "homepage.project",
+        "pk": 8,
+        "fields": {
+            "category": 1, 
+            "name": "Serene Mosque",
+            "client": "Local Community",
+            "discriptions": "We designed and built serene Mosque structures with precision to serve as peaceful places of worship for the community.",
+            "image": "uploads/project8.jpg", 
+            "icon": "icon8.png"
+        }
+    },
+    {
+        "model": "homepage.project",
+        "pk": 9,
+        "fields": {
+            "category": 1, 
+            "name": "Customized Solutions",
+            "client": "Diverse Industries",
+            "discriptions": "We offered Custom Plan & Design services, collaborating closely with clients to create tailor-made solutions that met their exact requirements.",
+            "image": "uploads/project9.jpg", 
+            "icon": "icon9.png"
+        }
+    },
+    {
+        "model": "homepage.project",
+        "pk": 10,
+        "fields": {
+            "category": 1, 
+            "name": "Remote Work Camps",
+            "client": "Oil & Gas Industry",
+            "discriptions": "We provided turnkey solutions for remote work camps, including temporary and permanent office buildings, work camps, and villas, ensuring clients received ready-to-use facilities.",
+            "image": "uploads/project10.jpg", 
+            "icon": "icon10.png"
+        }
+    },
+    {
+        "model": "homepage.project",
+        "pk": 11,
+        "fields": {
+            "category": 2,  
+            "name": "Enchanting Wedding Venue",
+            "client": "Newlyweds",
+            "discriptions": "Our Wedding Tents created a magical atmosphere for a memorable wedding, offering an elegant and enchanting venue.",
+            "image": "uploads/project11.jpg", 
+            "icon": "icon11.png"
+        }
+    },
+    {
+        "model": "homepage.project",
+        "pk": 12,
+        "fields": {
+            "category": 2,  
+            "name": "Military Operations Base",
+            "client": "Military Department",
+            "discriptions": "We supplied Military Tents, ensuring durability and reliability for military operations, ensuring safety and protection.",
+            "image": "uploads/project12.jpg", 
+            "icon": "icon12.png"
+        }
+    },
+    {
+        "model": "homepage.project",
+        "pk": 13,
+        "fields": {
+            "category": 2,  
+            "name": "Portable Adventure",
+            "client": "Adventure Enthusiasts",
+            "discriptions": "Our Travelling Tents provided portable comfort for adventurous journeys and outdoor adventures, ensuring a comfortable and safe experience.",
+            "image": "uploads/project13.jpg", 
+            "icon": "icon13.png"
+        }
+    },
+    {
+        "model": "homepage.project",
+        "pk": 14,
+        "fields": {
+            "category": 2,  
+            "name": "Outdoor Events Galore",
+            "client": "Event Management Company",
+            "discriptions": "Casual Tents were deployed for various outdoor events and activities, offering versatility and style for guests.",
+            "image": "uploads/project14.jpg", 
+            "icon": "icon14.png"
+        }
+    },
+    {
+        "model": "homepage.project",
+        "pk": 15,
+        "fields": {
+            "category": 3,  
+            "name": "Vehicle Protection",
+            "client": "Commercial Parking Area",
+            "discriptions": "We installed Quality Car Parking Shades, offering efficient protection for vehicles against harsh weather conditions.",
+            "image": "uploads/project15.jpg", 
+            "icon": "icon15.png"
+        }
+    },
+    {
+        "model": "homepage.project",
+        "pk": 16,
+        "fields": {
+            "category": 3,  
+            "name": "Value for Money",
+            "client": "Residential Community",
+            "discriptions": "Competitive Prices made it possible for a residential community to benefit from durable and cost-effective car parking shade solutions.",
+            "image": "uploads/project16.jpg", 
+            "icon": "icon16.png"
+        }
+    },
+    {
+        "model": "homepage.project",
+        "pk": 17,
+        "fields": {
+            "category": 3,  
+            "name": "Customer-Centric Service",
+            "client": "Business Complex",
+            "discriptions": "Exceptional Service ensured that the installation of car parking shades was hassle-free for the business complex, reflecting our commitment to customer satisfaction.",
+            "image": "uploads/project17.jpg", 
+            "icon": "icon17.png"
+        }
+    },
+    {
+        "model": "homepage.project",
+        "pk": 18,
+        "fields": {
+            "category": 3,  
+            "name": "Shade Oasis",
+            "client": "Shopping Mall",
+            "discriptions": "Our car parking shades transformed the mall's parking area into a shaded oasis, enhancing the visitor experience.",
+            "image": "uploads/project18.jpg", 
+            "icon": "icon18.png"
+        }
+    },
+    {
+        "model": "homepage.project",
+        "pk": 19,
+        "fields": {
+            "category": 3,  
+            "name": "Vehicle Protection",
+            "client": "Educational Institution",
+            "discriptions": "Car parking shades were installed at an educational institution, providing an efficient solution for students and staff.",
+            "image": "uploads/project19.jpg", 
+            "icon": "icon19.png"
+        }
+    },
+    {
+        "model": "homepage.project",
+        "pk": 20,
+        "fields": {
+            "category": 3,  
+            "name": "Quality Assurance",
+            "client": "Residential Housing",
+            "discriptions": "We offered Quality Car Parking Shades to ensure vehicle protection with a focus on durability and efficiency.",
+            "image": "uploads/project20.jpg", 
+            "icon": "icon20.png"
+        }
+    }
+]

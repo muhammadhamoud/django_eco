@@ -1,0 +1,32 @@
+[
+    {
+        "model": "ratemanagement.rateofferproduct",
+        "pk": 1,
+        "fields": {
+            "code": "CAR",
+            "name": "Car with Driver",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.rateofferproduct",
+        "pk": 2,
+        "fields": {
+            "code": "CARONLY",
+            "name": "Car Only",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.rateofferproduct",
+        "pk": 3,
+        "fields": {
+            "code": "CARPETROL",
+            "name": "Car with Petrol",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    }
+]

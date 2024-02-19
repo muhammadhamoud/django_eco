@@ -1,0 +1,31 @@
+[
+  {
+    "model": "homepage.SiteInformation",
+    "pk": 1,
+    "fields": {
+      "site_name": "Al Darwash Portacabin & Tents Factory L.L.C",
+      "site_description": "We don't just build structures; we craft dreams. As a trailblazing manufacturer of versatile, state-of-the-art portable buildings, we stand at the forefront of innovation and quality.",
+      "site_keywords": "Your site keywords",
+      "tagline": "Elevate Your Vision with Al Darwash: Unleashing Excellence in Portable Buildings",
+      "logo": "uploads/logo.jpg",
+      "address": "P.O.Box: 21577, Ajman, United Arab Emirates",
+      "telephone": "+971-67477880",
+      "mobile": "+971-509169001",
+      "fax": "+971-67485312",
+      "email": "info@aldarwashprefab.com",
+      "website": "http://www.aldarwashprefab.com",
+      "sales_email": "sales@aldarwashprefab.com",
+      "technical_email": "technical@aldarwashprefab.com",
+      "accounts_email": "accounts@aldarwashprefab.com",
+      "facebook_url": "https://www.facebook.com/yourpage",
+      "twitter_url": "https://twitter.com/yourhandle",
+      "instagram_url": "https://www.instagram.com/youraccount",
+      "linkedin_url": "https://www.linkedin.com/in/yourprofile",
+      "whatsapp_url": "https://wa.me/+971509169001",
+      "googlemap_url": "https://maps.google.com/maps?q=yourlocation",
+      "about_us": "About us content.",
+      "privacy_policy": "Privacy policy content.",
+      "terms_of_service": "Terms of service content."
+    }
+  }
+]

@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+  <main class="container">
+    <h1>Blog Posts</h1>
+    <ul class="list-unstyled">
+        {% for post in posts %}
+        <li class="mb-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2><a href="{% url 'post-detail' post.slug %}">{{ post.title }}</a></h2>
+                    <p>{{ post.created_at|date:"F d, Y" }}</p>
+                    <p>{{ post.content|truncatechars:200|safe }}</p>
+                </div>
+            </div>
+        </li>
+        {% empty %}
+        <li class="mb-5">
+            <p>No blog posts available.</p>
+        </li>
+        {% endfor %}
+    </ul>
+    <div class="pagination">
+        <span class="step-links">
+            {% if posts.has_previous %}
+            <a href="?page=1">&laquo; first</a>
+            <a href="?page={{ posts.previous_page_number }}">previous</a>
+            {% endif %}
+            <span class="current-page">
+                Page {{ posts.number }} of {{ posts.paginator.num_pages }}.
+            </span>
+            {% if posts.has_next %}
+            <a href="?page={{ posts.next_page_number }}">next</a>
+            <a href="?page={{ posts.paginator.num_pages }}">last &raquo;</a>
+            {% endif %}
+        </span>
+    </div>
+</main>
+
+
+<!-- <div class="container"> -->
+  <!-- <header class="border-bottom lh-1 py-3">
+    <div class="row flex-nowrap justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+        <a class="link-secondary" href="#">Subscribe</a>
+      </div>
+      <div class="col-4 text-center">
+        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#">Large</a>
+      </div>
+      <div class="col-4 d-flex justify-content-end align-items-center">
+        <a class="link-secondary" href="#" aria-label="Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg>
+        </a>
+        <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+      </div>
+    </div>
+  </header> -->
+
+  <!-- <h1>Blog Categories</h1>
+  <ul>
+    {% for category in categories %}
+      <li>
+        <h2><a href="{% url 'category-detail' category.slug %}">{{ category.name }}</a></h2>
+      </li>
+    {% empty %}
+      <p>No categories available.</p>
+    {% endfor %}
+  </ul> -->
+
+
+
+{% endblock %}

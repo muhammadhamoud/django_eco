@@ -1,0 +1,15 @@
+<!-- ratepool_form.html -->
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>{% if ratepool.pk %}Edit Rate Pool{% else %}Create Rate Pool{% endif %}</h1>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">{% if ratepool.pk %}Update{% else %}Create{% endif %}</button>
+  </form>
+  <a href="{% url 'ratepool-list' %}">Back to Rate Pools</a>
+  {% if ratepool.pk %}
+    <a href="{% url 'ratepool-update' ratepool.pk %}">Edit this Rate Pool</a>
+  {% endif %}
+{% endblock %}

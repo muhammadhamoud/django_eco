@@ -1,0 +1,75 @@
+[
+    {
+      "model": "homepage.testimonial",
+      "pk": 1,
+      "fields": {
+        "name": "John Smith",
+        "company": "Project Manager",
+        "content": "Al Darwash Prefabs exceeded our expectations with their innovative approach to prefab construction. The ease of assembly on-site with minimal labor was a game-changer for our project. We highly recommend their services."
+      }
+    },
+    {
+      "model": "homepage.testimonial",
+      "pk": 2,
+      "fields": {
+        "name": "Sarah Davis",
+        "company": "Event Coordinator",
+        "content": "The team at Al Darwash Tents delivered exactly what we needed for our outdoor event. Their multi-purpose tents provided a comfortable and versatile space for our guests. Plus, their after-sales service was outstanding!"
+      }
+    },
+    {
+      "model": "homepage.testimonial",
+      "pk": 3,
+      "fields": {
+        "name": "David Johnson",
+        "company": "Business Owner",
+        "content": "We turned to AL Darwash Car Parking for a temporary office building solution, and they delivered with excellence. Their attention to detail and commitment to quality made the entire process hassle-free. We're impressed!"
+      }
+    },
+    {
+      "model": "homepage.testimonial",
+      "pk": 4,
+      "fields": {
+        "name": "Emily Clark",
+        "company": "Facilities Manager",
+        "content": "Al Darwash's commitment to quality shades at competitive prices is unmatched. Our car parking area now boasts durable and efficient shades that protect our vehicles year-round. We couldn't be happier!"
+      }
+    },
+    {
+      "model": "homepage.testimonial",
+      "pk": 5,
+      "fields": {
+        "name": "Ahmed Al-Mansoori",
+        "company": "Real Estate Developer",
+        "content": "Working with Al Darwash has been a pleasure. Their team's expertise in prefab construction is evident in the outstanding results they deliver. Our villa project in the Gulf region turned out exactly as we envisioned."
+      }
+    },
+    {
+      "model": "homepage.testimonial",
+      "pk": 6,
+      "fields": {
+        "name": "Lisa Taylor",
+        "company": "Homeowner",
+        "content": "Al Darwash Prefabs' dedication to customer satisfaction is impressive. Their attention to detail, efficient solutions, and professionalism set them apart. We are thrilled with our prefab house!"
+      }
+    },
+    {
+      "model": "homepage.testimonial",
+      "pk": 7,
+      "fields": {
+        "name": "Mark and Jessica Williams",
+        "company": "Newlyweds",
+        "content": "Al Darwash Tents provided the perfect solution for our outdoor wedding. Their wedding tents created a magical atmosphere that our guests will never forget. Thank you for making our special day even more memorable."
+      }
+    },
+    {
+      "model": "homepage.testimonial",
+      "pk": 8,
+      "fields": {
+        "name": "Peter Anderson",
+        "company": "Property Manager",
+        "content": "We can't say enough about Al Darwash Car Parking. Their car parking shades have transformed our parking area into a shaded oasis. The value for money and exceptional service are truly commendable."
+      }
+    }
+  ]
+  

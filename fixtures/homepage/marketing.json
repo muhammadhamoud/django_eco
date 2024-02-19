@@ -1,0 +1,43 @@
+[
+    {
+      "model": "homepage.marketing",
+      "pk": 1,
+      "fields": {
+        "name": "Welcome to AL Darwash Prefabs",
+        "description": "At AL Darwash Prefabs, we are your premier destination for high-quality prefab solutions in the Gulf region. With a dedicated team of experienced professionals, we specialize in crafting top-notch Pre-Fabricated Houses designed for efficiency and convenience. Why Choose AL Darwash Prefab Houses? Our prefab houses are engineered for simplicity. They are meticulously manufactured and assembled under rigorous quality controls to ensure you receive a superior product. What sets us apart is our innovative approach to prefab construction - our houses are designed to be shipped as kits and effortlessly erected on-site with just a handful of skilled workers. This makes your project cost-effective, efficient, and hassle-free.",
+        "image": "uploads/test.png"
+
+      }
+    },
+    {
+        "model": "homepage.marketing",
+        "pk": 2,
+        "fields": {
+          "name": "Why Choose AL Darwash Prefab Houses? ",
+          "description": "Our prefab houses are engineered for simplicity. They are meticulously manufactured and assembled under rigorous quality controls to ensure you receive a superior product. What sets us apart is our innovative approach to prefab construction - our houses are designed to be shipped as kits and effortlessly erected on-site with just a handful of skilled workers. This makes your project cost-effective, efficient, and hassle-free. ",
+          "image": "uploads/test.png"
+
+        }
+      },
+    {
+      "model": "homepage.marketing",
+      "pk": 3,
+      "fields": {
+        "name": "Discover Al Darwash Tents",
+        "description": "Looking for versatile and cost-effective tent solutions? Look no further than Al Darwash Tents. Based in the United Arab Emirates, we are a renowned manufacturer of multi-purpose tents that can be delivered to any corner of the globe. We pride ourselves on delivering top-quality tents at competitive prices. Our commitment to customer satisfaction extends beyond the sale, with exceptional after-sales service to cater to all your needs.",
+        "image": "uploads/test.png"
+
+      }
+    },
+    {
+      "model": "homepage.marketing",
+      "pk": 4,
+      "fields": {
+        "name": "Experience AL Darwash Car Parking Solutions",
+        "description": "At AL Darwash Car Parking, we leverage our extensive expertise in prefab construction to offer innovative solutions for temporary and permanent office buildings, work camps, and villas in the Gulf region. Our turnkey services ensure you receive a 'ready to use' solution with minimal hassle. Whether you need a temporary structure or a permanent solution, our professional team is here to make your vision a reality.",
+        "image": "uploads/test.png"
+
+      }
+    }
+  ]
+  

@@ -1,0 +1,14 @@
+<!-- ratepool_list.html -->
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Rate Pools</h1>
+  <ul>
+    {% for ratepool in ratepools %}
+      <li>{{ ratepool.name }}</li>
+    {% empty %}
+      <li>No rate pools available.</li>
+    {% endfor %}
+  </ul>
+  <a href="{% url 'ratepool-create' %}">Create New Rate Pool</a>
+{% endblock %}

@@ -1,0 +1,102 @@
+[
+    {
+        "model": "ratemanagement.ratepool",
+        "pk": 1,
+        "fields": {
+            "code": "ROOM",
+            "name": "Run of house for Groups",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratepool",
+        "pk": 2,
+        "fields": {
+            "code": "GENR",
+            "name": "Deluxe King Room",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratepool",
+        "pk": 3,
+        "fields": {
+            "code": "TWTW",
+            "name": "Deluxe Twin Room",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratepool",
+        "pk": 4,
+        "fields": {
+            "code": "DOCV",
+            "name": "Deluxe Ocean View King Room",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratepool",
+        "pk": 5,
+        "fields": {
+            "code": "DDOV",
+            "name": "Deluxe Ocean Twin Room",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratepool",
+        "pk": 6,
+        "fields": {
+            "code": "CJST",
+            "name": "Corner Suite",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratepool",
+        "pk": 7,
+        "fields": {
+            "code": "EXEC",
+            "name": "Executive King Rooms",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratepool",
+        "pk": 8,
+        "fields": {
+            "code": "KTWS",
+            "name": "Executive Twin Room",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratepool",
+        "pk": 9,
+        "fields": {
+            "code": "SUIT",
+            "name": "Executive Suite",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.ratepool",
+        "pk": 10,
+        "fields": {
+            "code": "PENT",
+            "name": "Penthouse",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    }
+]

@@ -1,0 +1,11 @@
+{% block content %}
+  <div class="module">
+    <h2>Change Image URL for Selected Products</h2>
+    <form method="post" action="">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <p class="note">Enter the new image URL to apply to the selected products.</p>
+      <input type="submit" name="apply" value="Apply">
+    </form>
+  </div>
+{% endblock %}

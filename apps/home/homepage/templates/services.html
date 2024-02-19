@@ -1,0 +1,23 @@
+      
+      {% load static %}
+
+      <!-- Marketing messaging and featurettes
+      ================================================== -->
+      <!-- Wrap the rest of the page in another container to center all the content. -->
+      <div class="marketing" id="services">
+         <!-- Three columns of text below the carousel -->
+         <h2 class="pb-2 border-bottom mb-4">Services</h2>
+         <!-- <h2 class="fw-normal lh-1 text-center mt-0 mb-5">Elevating Your Experience with Our Comprehensive Services</h2> -->
+
+        <div class="row">
+          {% for service in services %}
+          <div class="col-lg-4">
+            <img class="bd-placeholder-img rounded-circle mb-4" width="140" height="140" src="{{service.image.url}}" alt="{{service.name}}">
+            <h3 class="fw-bold mb-2 fs-4 text-body-emphasis">{{service.name}}</h3>
+            <p class="mb-2">{{service.description|safe}}</p>
+            <!-- <p><a class="btn btn-secondary" href="#">View details »</a></p> -->
+          </div>
+          {% endfor %}
+          <p class="text-muted text-center mt-0"> At {{site_information.company_name}}, we go above and beyond to provide unparalleled services that set us apart from the rest. We are your dedicated partners in every step of your journey, ensuring your satisfaction is our top priority.</p>
+        </div>
+      </div>

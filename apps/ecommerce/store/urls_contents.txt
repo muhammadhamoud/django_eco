@@ -1,0 +1,55 @@
+
+apply price per coupon date
+add password to the zip file for the user to download, the password will be same user password to the site.
+add shippement address incase the product is not digital
+
+Product List View:
+
+Route Name: product-list
+URL Pattern: /products/
+Description: Display a list of all products.
+Product Detail View:
+
+Route Name: product-detail
+URL Pattern: /products/<int:pk>/
+Description: Display details of a specific product.
+Add to Cart View:
+
+Route Name: add-to-cart
+URL Pattern: /products/<int:pk>/add-to-cart/
+Description: Add a product to the shopping cart.
+Shopping Cart View:
+
+Route Name: cart
+URL Pattern: /cart/
+Description: Display the contents of the shopping cart.
+Remove from Cart View:
+
+Route Name: remove-from-cart
+URL Pattern: /cart/<int:pk>/remove/
+Description: Remove a product from the shopping cart.
+Checkout View:
+
+Route Name: checkout
+URL Pattern: /checkout/
+Description: Process the checkout of items in the cart.
+Order History View:
+
+Route Name: order-history
+URL Pattern: /order/history/
+Description: Display a list of a user's order history.
+Category Products View:
+
+Route Name: category-products
+URL Pattern: /category/<int:pk>/products/
+Description: Display a list of products within a specific category.
+Search Results View:
+
+Route Name: search-results
+URL Pattern: /search/
+Description: Display search results for products.
+User Profile View:
+
+Route Name: user-profile
+URL Pattern: /profile/
+Description: Display a user's profile and order history.

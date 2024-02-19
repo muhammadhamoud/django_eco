@@ -1,0 +1,83 @@
+{% comment %} {% load static %} {% endcomment %}
+
+{% load static %}
+<div class="container">
+  <footer class="py-5 border-top">
+    <div class="row ">
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <h5>
+          {% if site_information.logo %}
+            <img src="{{site_information.logo.url}}" width="30" height="30" class="d-inline-block align-top me-2" alt="">{{site_information.company_name}}
+          {% endif %}
+          {{site_information.company_name}}
+        </h5>
+        <p>
+          {{site_information.description}}
+        </p>
+      </div>
+      {% comment %} <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+      </div>
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+      </div> {% endcomment %}
+
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <h5 class="mb-4">Contact Details</h5>
+        <p><i class="fas fa-home me-3"></i>{{site_metadata.address}}</p>
+        <p><i class="fas fa-envelope me-3"></i>{{site_metadata.email}}</p>
+        <p><i class="fas fa-phone me-3"></i>{{site_metadata.mobile}}</p>
+        <p><i class="fas fa-phone me-3"></i>{{site_metadata.telephone}}</p>
+        <p><i class="fas fa-print me-3"></i>{{site_metadata.fax}}</p>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>&copy; {{copyright}}
+        <a class="btn btn-floating" href="{{site_metadata.website}}">{{site_information.company_name}} Inc. All
+          rights reserved.</a>
+      </p>
+      <div>
+        <!-- Facebook -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;"
+          href="{{site_metadata.facebook_url}}" role="button"><i class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #55acee;"
+          href="{{site_metadata.twitter_url}}" role="button"><i class="fab fa-twitter"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;"
+          href="{{site_metadata.instagram_url}}" role="button"><i class="fab fa-instagram"></i></a>
+
+        <!-- Linkedin -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;"
+          href="{{site_metadata.linkedin_url}}" role="button"><i class="fab fa-linkedin-in"></i></a>
+        <!-- Whatisapp -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #128c7e;"
+          href="{{site_metadata.whatsapp_url}}" role="button"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+    <div>Powered by<a class="btn btn-floating" href="https://roinsight.com/">ROI Technology</a></div>
+  </footer>
+</div>

@@ -1,0 +1,16 @@
+
+
+
+
+
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>RatePool Detail</h1>
+
+<p><strong>Code:</strong> {{ ratepool.code }}</p>
+<p><strong>Name:</strong> {{ ratepool.name }}</p>
+<p><strong>Quantity:</strong> {{ ratepool.quantity }}</p>
+
+<a href="{% url 'ratepool_edit' ratepool.pk %}">Edit RatePool</a>
+{% endblock %}

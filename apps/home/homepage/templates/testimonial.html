@@ -1,0 +1,24 @@
+<section id="testimonials">
+        <div class="header my-5">
+          <h2 class="pb-2 border-bottom">Testimonials</h2>
+          <p class="text-muted"></p>
+        </div>
+ 
+    <div class="row text-center">
+      {% for testimonial in testimonials %}
+      <div class="col-md-4 mb-5 mb-md-0">
+        <!-- <div class="d-flex justify-content-center mb-4">
+          <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+            class="rounded-circle shadow-1-strong" width="150" height="150" />
+        </div> -->
+        <h5 class="mb-3">{{testimonial.name}}</h5>
+        <h6 class="text-primary mb-3">{{testimonial.company}}</h6>
+        <p class="px-xl-3">
+          <i class="fas fa-quote-left pe-2"></i>
+            {{testimonial.content}}
+          <i class="fas fa-quote-right pe-2"></i>
+        </p>
+      </div>
+      {% endfor %}
+    </div>
+  </section>

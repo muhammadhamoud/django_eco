@@ -1,0 +1,59 @@
+/* stylelint-disable stylistic/selector-list-comma-newline-after */
+/*
+
+*/
+/*rtl:Amiri, Georgia, "Times New Roman", serif*/
+
+/* CSS for Arabic text */
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  /* direction: rtl; Right-to-left direction for Arabic text */
+}
+
+/* Paragraphs */
+p {
+  font-family: "Poppins", "Roboto", "Questrial", serif;
+  /* direction: rtl; Right-to-left direction for Arabic text */
+}
+
+/* Specific RTL font for Amiri */
+.rtl {
+  font-family: "Amiri", Georgia, "Times New Roman", serif;
+  direction: rtl; /* Right-to-left direction for Arabic text */
+}
+
+.blog-header-logo {
+    /* font-family: "Playfair Display", Georgia, "Times New Roman", serif; */
+    font-size: 2.25rem;
+  }
+  
+  .blog-header-logo:hover {
+    text-decoration: none;
+  }
+  
+  .flex-auto {
+    flex: 0 0 auto;
+  }
+  
+  .h-250 { height: 250px; }
+  @media (min-width: 768px) {
+    .h-md-250 { height: 250px; }
+  }
+  
+  /* Pagination */
+  .blog-pagination {
+    margin-bottom: 4rem;
+  }
+  
+  /*
+   * Blog posts
+   */
+  .blog-post {
+    margin-bottom: 4rem;
+  }
+  .blog-post-meta {
+    margin-bottom: 1.25rem;
+    color: #727272;
+  }

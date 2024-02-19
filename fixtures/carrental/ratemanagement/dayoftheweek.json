@@ -1,0 +1,65 @@
+[
+    {
+        "model": "ratemanagement.dayoftheweek",
+        "pk": 1,
+        "fields": {
+            "day_of_week": "Sun",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.dayoftheweek",
+        "pk": 2,
+        "fields": {
+            "day_of_week": "Mon",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.dayoftheweek",
+        "pk": 3,
+        "fields": {
+            "day_of_week": "Tue",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.dayoftheweek",
+        "pk": 4,
+        "fields": {
+            "day_of_week": "Wed",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.dayoftheweek",
+        "pk": 5,
+        "fields": {
+            "day_of_week": "Thu",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.dayoftheweek",
+        "pk": 6,
+        "fields": {
+            "day_of_week": "Fri",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    },
+    {
+        "model": "ratemanagement.dayoftheweek",
+        "pk": 7,
+        "fields": {
+            "day_of_week": "Sat",
+            "created": "2023-10-01T10:00:00Z",
+            "modified": "2023-10-01T10:00:00Z"
+        }
+    }
+]

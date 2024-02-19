@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>Posts in Category: {{ category_posts.0.categories.all.0.name }}</h1>
+  <ul>
+    {% for post in category_posts %}
+      <li>
+        <h2><a href="{% url 'post-detail' post.slug %}">{{ post.title }}</a></h2>
+        <p>Published on {{ post.created_at|date:"F d, Y" }}</p>
+        <p>{{ post.content|truncatechars:200 }}</p>
+      </li>
+    {% empty %}
+      <p>No posts available in this category.</p>
+    {% endfor %}
+  </ul>
+  <a href="{% url 'category-list' %}">Back to categories</a>
+{% endblock %}

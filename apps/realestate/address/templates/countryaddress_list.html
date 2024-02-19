@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="text-center mt-5">
+    {% block content %}
+    <h2>Address Form</h2>
+    <form method="post" novalidate>
+      {% csrf_token %}
+      <table>
+        {{ form.as_table }}
+      </table>
+      <button type="submit">Save</button>
+      <a href="{% url 'CountryAddress_changelist' %}">Nevermind</a>
+    </form>
+  {% endblock %}
+</div>
+{% endblock %}
